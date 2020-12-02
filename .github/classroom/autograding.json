@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test Course",
+      "setup": "",
+      "run": "gradle test --tests TestExercise05.test01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Classroom",
+      "setup": "",
+      "run": "gradle test --tests TestExercise05.test02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Bucket",
+      "setup": "",
+      "run": "gradle test --tests TestExercise05.test03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
