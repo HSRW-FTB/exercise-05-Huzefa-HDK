@@ -2,8 +2,7 @@
 *Object Oriented Programming - 2309 - Prof. Ronny Hartanto*
 
 ## Student Name
-
-**TODO - Please put your name in this README**
+Huzefa Mustafa
 
 ## Assignments
 Please refer to the [Exercise_05](https://moodle.hochschule-rhein-waal.de/course/view.php?id=12132#section-4) sheet on moodle.
