@@ -10,7 +10,7 @@
         // String lastname;
         // String firstname;
         // Date birthdate;
-        private Course studycourse;
+        private StudyCourse studycourse;
          
         
         public Student(String fname, String lname) {
@@ -25,7 +25,7 @@
         
         // String getID() { return Integer.toString(this.id); } 
         
-        public Course getStudyCourse() { return studycourse; }
+        public StudyCourse getStudyCourse() { return studycourse; }
         public String getStudyCourseDescription() {
             studycourse = getStudyCourse();
             switch(studycourse) {
@@ -50,11 +50,11 @@
             }   
         } 
 
-        public void setStudyCourse(Course sc) {
+        public void setStudyCourse(StudyCourse sc) {
             studycourse = sc;
         } 
         public void setStudyCourse(String scStr) {
-            studycourse =  Course.valueOf(scStr);
+            studycourse =  StudyCourse.valueOf(scStr);
         }
         // public static void main(String[] args){
         //     // Create a student object
