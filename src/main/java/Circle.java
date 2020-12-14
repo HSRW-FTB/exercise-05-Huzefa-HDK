@@ -1,5 +1,3 @@
-import java.util.Set;
-
 public class Circle extends GeometricObject {
     
     private double radius;
@@ -17,5 +15,18 @@ public class Circle extends GeometricObject {
 
     public void setRadius(double radius) { this.radius = radius; }
 
+    public double getArea() { return radius * radius * Math.PI; }
 
+    public double getDiameter() { return 2 * radius; }
+
+    public double getPerimeter() { return 2 * radius * Math.PI; }
+
+    public void printCircle() {
+        System.out.println("The cicle is created " + getDateCreated() + " and the radius is " + radius);
+    }
+
+    public String toString() {
+        return "Circle created on " + getDateCreated() + "\ncolor: " + this.getColor() + 
+                " and filled: " + this.isFilled() + " radius: " + radius; 
+    }
 }
